@@ -1,26 +1,30 @@
 import React from 'react';
-import Game from "./components/game/Game"
+import Game from "./components/game/Game";
+import mods from "./assets/imges/mods.png"
+import subs from "./assets/imges/subs.png"
+import trolls from "./assets/imges/trolls.png"
+import follow from "./assets/imges/followers.png"
 import './App.css';
 
 function App(props) {
   const raccoons = {
     name: 'Russiaville Raccoons',
-    logoSrc: './assets/images/raccoon.png'
+    logoSrc: mods
   }
 
   const squirrels = {
     name: 'Sheridan Squirrels',
-    logoSrc: './assets/images/squirrel.png'
+    logoSrc: subs
   }
 
   const bunnies = {
     name: 'Burlington Bunnies',
-    logoSrc: './assets/images/bunny.png'
+    logoSrc: trolls
   }
 
   const hounds = {
     name: 'Hammond Hounds',
-    logoSrc: './assets/images/hound.png'
+    logoSrc: follow
   }
 
   return (
