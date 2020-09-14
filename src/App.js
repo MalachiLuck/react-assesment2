@@ -1,9 +1,9 @@
 import React from 'react';
 import Game from "./components/game/Game";
-import mods from "./assets/imges/mods.png"
-import subs from "./assets/imges/subs.png"
-import trolls from "./assets/imges/trolls.png"
-import follow from "./assets/imges/followers.png"
+import mods from "./assets/images/mods.png"
+import subs from "./assets/images/subs.png"
+import trolls from "./assets/images/trolls.png"
+import follow from "./assets/images/followers.png"
 import './App.css';
 
 function App(props) {

@@ -1,8 +1,8 @@
-import Team from "./team/Team"
-import ScoreBoard from "./scoreboard/Scoreboard"
+import Team from "../team/Team"
+import ScoreBoard from "../scoreboard/Scoreboard"
 import React from "react"
-import sound1 from './assets/sounds/1.wav'
-import sound2 from './assets/sounds/2.wav'
+import sound1 from '../../assets/sounds/1.wav'
+import sound2 from '../../assets/sounds/2.wav'
 
 class Game extends React.Component {
   constructor(props) {
